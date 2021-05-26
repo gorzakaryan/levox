@@ -303,10 +303,10 @@
     cursor: pointer;
 }
 
-#slider-range-1 > span:first-child,
-#slider-range-2 > span:first-child,
-#slider-range-3 > span:first-child,
-#slider-range-4 > span:first-child {
+#slider-range-1 > span:first-of-type,
+#slider-range-2 > span:first-of-type,
+#slider-range-3 > span:first-of-type,
+#slider-range-4 > span:first-of-type {
     margin: 0 0 0 -2px;
 }
 
