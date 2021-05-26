@@ -300,6 +300,7 @@
     height: 14px;
     top: -4px;
     outline: none;
+    cursor: pointer;
 }
 
 #slider-range-1 .ui-slider-horizontal .ui-slider-handle,
