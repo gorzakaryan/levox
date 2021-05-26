@@ -17,6 +17,15 @@ $(".addresses-map-container .map-addresses .map-addresses-title .close").click(f
     $(".addresses-map-container .map-addresses").hide(200);
 });
 
+let map;
+
+function initMap() {
+    map = new google.maps.Map(document.getElementById("hotelsMap"), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 8,
+    });
+}
+
 // $(document).ready(function() {
 //     myMap.initialize();
 // });
