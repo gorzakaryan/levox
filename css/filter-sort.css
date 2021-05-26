@@ -307,14 +307,7 @@
 #slider-range-2 > span:first-child,
 #slider-range-3 > span:first-child,
 #slider-range-4 > span:first-child {
-    left: 3%;
-}
-
-#slider-range-1 > span:last-child,
-#slider-range-2 > span:last-child,
-#slider-range-3 > span:last-child,
-#slider-range-4 > span:last-child {
-    left: 99%;
+    margin: 0 0 0 -2px;
 }
 
 #slider-range-1 .ui-slider-horizontal .ui-slider-handle,
